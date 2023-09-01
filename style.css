@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+}
+nav {
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    
+}
+nav ul li {
+    padding: 15px; 
+    list-style: none;
+    
+}
+
+.menu-btn {
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+
+.menu-btn:hover{
+    background-color: darkgrey;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 4px;
+    transform: letter-spacing;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.profile {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.profile img:hover{
+    width: 320px;
+    height: 320px;
+    transform:scale(1.2);
+    transition: 1s;
+}
+
+
+#detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#detail h3 {
+    margin: 30px 0 10px;   
+    font-size: 35px;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 50px;
+}
